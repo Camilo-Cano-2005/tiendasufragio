@@ -1,6 +1,6 @@
 //OBJETOS
 let producto1={
-    nombre:"producto1",
+    nombre:"Buso ",
     precio:500000,
     estado:"Nuevo",
     foto:""
@@ -104,6 +104,41 @@ let producto15={
     foto:""
 }
 
+let producto16={
+    nombre:"producto15",
+    precio:500000,
+    estado:"Nuevo",
+    foto:""
+}
+
+let producto17={
+    nombre:"producto15",
+    precio:500000,
+    estado:"Nuevo",
+    foto:""
+}
+
+let producto18={
+    nombre:"producto15",
+    precio:500000,
+    estado:"Nuevo",
+    foto:""
+}
+
+let producto19={
+    nombre:"producto15",
+    precio:500000,
+    estado:"Nuevo",
+    foto:""
+}
+
+let producto15={
+    nombre:"producto15",
+    precio:500000,
+    estado:"Nuevo",
+    foto:""
+}
+
 //ARREGLO
 let productos=Array(
     producto1,
@@ -120,7 +155,12 @@ let productos=Array(
     producto12,
     producto13,
     producto14,
-    producto15
+    producto15,
+    producto16,
+    producto17,
+    producto18,
+    producto19,
+    producto20
 )
 
 //RECORRO EL ARREGLO
