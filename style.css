@@ -1,6 +1,6 @@
 .neon {
     padding: 0 10px;
-    border: 6px solid rgb(250, 34, 243);
+    border: 5px solid rgb(250, 34, 243);
     border-radius: 10px;
     cursor: pointer;
     color: blueviolet;
@@ -11,5 +11,11 @@
     background-color: #db3eb1;
     filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
     transform: scale(1.1);
+}
+
+a.navbar-brand img {
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
