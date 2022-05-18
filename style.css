@@ -1,15 +1,15 @@
-.neon {
+.neon, .neon2 {
     padding: 0 10px;
-    border: 5px solid rgb(250, 34, 243);
+    border: 5px solid crimson;
     border-radius: 10px;
     cursor: pointer;
-    color: blueviolet;
-    filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+    color: darkred;
+    filter: drop-shadow(0 0 15px #db3e58) drop-shadow(0 0 50px #db3e58) contrast(2) brightness(2);
     transition: 0.5s;
 }.neon:hover {
     color: #fff;
-    background-color: #db3eb1;
-    filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+    background-color: darkred;
+    filter: drop-shadow(0 0 20px #db3e58) contrast(2) brightness(2);
     transform: scale(1.1);
 }
 
@@ -17,5 +17,21 @@ a.navbar-brand img {
     width: 60px;
     margin-left: 15px;
     margin-top: 5px;
+    transition: all ease-out 0.3s;
+}
+a.navbar-brand img:hover {
+    transform: scale(1.1);
+    transition: all ease-out 0.3s;
 }
 
+p.popularidad {
+    bottom: 0;
+}
+
+div.contElementos {
+    margin-top: 100px;
+}
+
+li a.nav-link {
+    font-size: 1.1em;
+}

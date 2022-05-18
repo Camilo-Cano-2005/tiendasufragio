@@ -516,10 +516,13 @@ productos.forEach(function(producto){
     columna.classList.add("col", "my-2")
 
     let tarjeta = document.createElement("div")
-    tarjeta.classList.add("card")
+    tarjeta.classList.add("card", "ubicarta", "h-100", "shadow",)
+
+    let contElementos = document.createElement("div")
+    contElementos.classList.add("contelementos", "position-relative", )
 
     let nombreProducto = document.createElement("h2")
-    nombreProducto.classList.add("bold", "text-center", "h4", "mx-2", "mt-3")
+    nombreProducto.classList.add("bold", "text-center", "h4", "mx-2", "my-3")
     nombreProducto.textContent = producto.nombre
 
     let precioProducto = document.createElement("p")
@@ -538,20 +541,19 @@ productos.forEach(function(producto){
     estadoProducto.textContent = "Estado: " + producto.estado
 
     let popuProducto = document.createElement("p")
-    popuProducto.classList.add("text-danger", "ms-3")
+    popuProducto.classList.add("text-danger", "ms-3", "popularidad")
     popuProducto.textContent = "Popularidad: " + producto.popularidad
 
     let paisProducto = document.createElement("p")
-    paisProducto.classList.add("text-warning", "ms-3")
+    paisProducto.classList.add("text-warning", "ms-3", "mb-3")
     paisProducto.textContent = "Pais: " + producto.pais
 
     tarjeta.appendChild(pics)
     tarjeta.appendChild(nombreProducto)
     tarjeta.appendChild(precioProducto)
     tarjeta.appendChild(estadoProducto)
-    tarjeta.appendChild(popuProducto)
     tarjeta.appendChild(paisProducto)
+    tarjeta.appendChild(popuProducto)
     columna.appendChild(tarjeta)
     contenedor.appendChild(columna)
-
 })
